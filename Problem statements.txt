@@ -1,0 +1,11 @@
+OCR using MNIST data set
+use the following command to import the OCR training data 28x28 pixels. each cell value is a 0 to 255 on grayscale
+from sklearn.datasets import fetch_mldata
+mnist = fetch_mldata("MNIST original")
+
+Titanic data
+Find the titanic dataset in the zip. Develop a classification model
+
+Use kmeans clustering for image segmentation on satellite images
+
+Note: before import any module in your python environment please make sure to install the module using "pip install <module_name>"
